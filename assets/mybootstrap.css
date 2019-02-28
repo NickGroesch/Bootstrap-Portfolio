@@ -79,7 +79,30 @@ h4 {
 }
 /* portfolio */
 
+.imgbut {
+  float: left;
+  position: absolute;
+  width: 200px;
+  margin: auto;
+}
+.imgbut img {
+  width: 200px;
+  height: 200px;
+}
+.btn {
+  position: absolute;
+  bottom: 20%;
+  height: 40px;
+  width: 200px;
+  background-color: #4aaaa5;
+  color: #cccccc;
+  font-size: 18px;
+  font-family: "Georgia", Times, Times New Roman, serif;
+}
 /* about */
+.myrow {
+  margin: 20px;
+}
 
 /* footer */
 h6 {
