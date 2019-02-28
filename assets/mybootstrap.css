@@ -38,6 +38,7 @@ body {
 }
 #headcard {
   background-color: #4aaaa5;
+  left: 100px;
 }
 h1 {
   color: #ffffff;
@@ -71,6 +72,9 @@ h4 {
   font-weight: bold;
 }
 /* contact */
+#mycontcontent{
+    height: 600px;
+}
 .myform {
   position: absolute;
   top: 70px;
@@ -78,7 +82,19 @@ h4 {
   margin: 30px;
 }
 /* portfolio */
-
+.portrow {
+    padding: 30px 0px 0px 30px;
+  height: 600px;
+}
+#myportbody{
+    height: 1200px;
+}
+#portcontent{
+height: 900px;
+}
+.portrow {
+  height: 800px;
+}
 .imgbut {
   float: left;
   position: absolute;
@@ -107,4 +123,38 @@ h4 {
 /* footer */
 h6 {
   margin: auto;
+}
+
+/* minimal media queries */
+@media screen and (max-width: 992px) {
+    #myportbody{
+        height: 1200px;
+    }
+    #portcontent{
+    height: 900px;
+    }
+  .portrow {
+      height: 800px;
+    }
+@media screen and (max-width: 768px) {
+    #myportbody{
+        height: 1550px;
+    }
+    #portcontent{
+    height: 1250px;
+    }
+    .portrow {
+        height: 1150px;
+    }
+    }
+@media screen and (max-width: 700px) { 
+    #myportbody{
+        height: 1800px;
+    }
+    #portcontent  {
+        height: 1500px;
+    }
+    h4 {
+    font-size: 18px;
+    }
 }
